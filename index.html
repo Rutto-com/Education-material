@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Educational Blog</h1>
+    </header>
+    <main>
+        <section id="materials">
+            <h2>Educational Materials</h2>
+            <p>Please pay Ksh 30 to M-Pesa Till 8323840 and enter your transaction code below to access the materials.</p>
+            <form id="paymentForm">
+                <label for="transactionCode">M-Pesa Transaction Code:</label>
+                <input type="text" id="transactionCode" name="transactionCode" required>
+                <button type="submit">Verify Payment</button>
+            </form>
+        </section>
+        <section id="content" style="display: none;">
+            <h2>Content</h2>
+            <p>This is the educational material you have paid for.</p>
+            <!-- Add your educational content here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Educational Blog</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
